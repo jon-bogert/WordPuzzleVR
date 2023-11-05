@@ -1,0 +1,94 @@
+{
+    "name": "InputMap",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "28a186d2-0352-4a26-a343-f19010d37f35",
+            "actions": [
+                {
+                    "name": "ActivateLeft",
+                    "type": "Button",
+                    "id": "55dea965-a61a-4426-98af-8979baec340d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ActivateRight",
+                    "type": "Button",
+                    "id": "50b328d3-279b-4728-a991-486ea9ecea53",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeactivateLeft",
+                    "type": "Button",
+                    "id": "c7d6abdb-a1cf-4067-b285-e90e7f1e6f2b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeactivateRight",
+                    "type": "Button",
+                    "id": "55449770-6adb-4a20-a34e-6cc7ce4419a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e3f1dbb7-157b-4484-b943-3c23e3bbdfd8",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "978cc42a-7ce1-47ee-adcd-91ddd420dad5",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b424fa9-7764-41a5-9def-a3cd5756c923",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeactivateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6279f74-7a14-4c81-8e22-189071e2af49",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeactivateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
